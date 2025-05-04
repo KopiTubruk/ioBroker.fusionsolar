@@ -211,6 +211,18 @@ class FusionSolarConnector extends utils.Adapter {
                             else if(deviceInfo.devTypeId == 39){
                                 //BATTERY
                             }
+                            else if(deviceInfo.devTypeId == 23070){
+                                //EMMA
+                            }
+                            else if(deviceInfo.devTypeId == 23071){
+                                //SMARTGUARD
+                            }    
+                            else if(deviceInfo.devTypeId == 45577){
+                                //WALLBOX (SCharger)
+                            }
+                            else if(deviceInfo.devTypeId == 45578){
+                                //AC Charge Connector ???
+                            }
                             else {
                                 //UNKNOWN
                                 if(skipUnknownDevices) continue;
